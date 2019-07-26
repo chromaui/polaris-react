@@ -15,6 +15,8 @@ Use [the changelog guidelines](https://git.io/polaris-changelog-guidelines) to f
 ### Bug fixes
 
 - Fixed types merge of `ActionMenu` `MenuAction` and `MenuGroup.actions` ([#1895](https://github.com/Shopify/polaris-react/pull/1895))
+- Fixed accessibility issue with `Autocomplete` where keyboard navigation of options was laggy and skipped options([#1887](https://github.com/Shopify/polaris-react/pull/1887))
+- Fixed bug where `Autocomplete` was bubbling up the `Enter` key event unexpectedly ([#1887](https://github.com/Shopify/polaris-react/pull/1887))
 
 ### Documentation
 
