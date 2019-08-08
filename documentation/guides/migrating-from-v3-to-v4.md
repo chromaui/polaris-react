@@ -88,7 +88,7 @@ export function mountWithPolaris(node) {
 
 #### i18n
 
-i18n is now a required prop and Polaris includes [many translation](https://github.com/Shopify/polaris-react/blob/master/locales) to support internationalization.
+i18n is now a required prop and Polaris includes [many translations](https://github.com/Shopify/polaris-react/blob/master/locales) to support internationalization.
 
 ```jsx
 import fr from '@shopify/polaris/locales/fr.json';
