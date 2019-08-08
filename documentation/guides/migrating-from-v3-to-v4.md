@@ -344,7 +344,7 @@ npm i react react-dom
 
 ### Config
 
-The method for importing react has changed to use default imports.
+The method for importing React changed to use default imports.
 
 ```jsx
 // old
