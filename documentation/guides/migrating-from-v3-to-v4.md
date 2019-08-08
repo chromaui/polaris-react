@@ -38,7 +38,7 @@ We've migrated to react new context API as well as restructured our entire conte
 
 In v3, you could hook into our context types.
 
-**Note:** These examples use enzyme. See [our examples](https://github.com/Shopify/polaris-react/tree/master/examples) for other testing libraries.
+**Note:** These examples use [Enzyme](https://airbnb.io/enzyme/). Other testing libraries can also be used, as shown in [these examples](https://github.com/Shopify/polaris-react/tree/master/examples).
 
 ```jsx
 // old
