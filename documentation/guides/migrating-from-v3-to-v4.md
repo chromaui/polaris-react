@@ -375,7 +375,7 @@ tsc --esModuleInterop ...
 
 ### Types
 
-`LinkLikeComponent` type has been removed. Use `AppProviderProps['linkComponent']` instead.
+`LinkLikeComponent` type was removed. Use `AppProviderProps['linkComponent']` instead.
 
 ```jsx
 // old
