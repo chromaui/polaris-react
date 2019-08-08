@@ -340,7 +340,7 @@ yarn add react react-dom
 npm i react react-dom
 ```
 
-## Typescript
+## TypeScript
 
 ### Config
 
