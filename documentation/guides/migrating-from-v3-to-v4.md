@@ -68,7 +68,7 @@ export function shallowWithAppProvider(node, options) {
 }
 ```
 
-Moving forward you'll want to wrap your code in our test provider.
+Moving forward you'll want to wrap your code in the Polaris test provider.
 
 ```jsx
 // new
