@@ -36,7 +36,7 @@ Polaris v4 contains mostly internal changes and has simple migration path. This 
 
 We've migrated to react new context API as well as restructured our entire context structure. To keep up to date using our test provider.
 
-In v3, you could hook into our context types.
+In v3, you could hook into Polaris’ context types.
 
 **Note:** These examples use [Enzyme](https://airbnb.io/enzyme/). Other testing libraries can also be used, as shown in [these examples](https://github.com/Shopify/polaris-react/tree/master/examples).
 
