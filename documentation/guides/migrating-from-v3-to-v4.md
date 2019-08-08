@@ -1,6 +1,6 @@
 # Migrating from v3 to v4
 
-Polaris v4 contains mostly internal changes and has simple migration paths. This guide contains multiple steps on how to deal with our breaking changes in your application.
+Polaris v4 contains mostly internal changes and has simple migration path. This guide goes through the necessary steps to deal with breaking changes in your application.
 
 **Note:** This migration guide is for v3 but may apply for v2 as well.
 
