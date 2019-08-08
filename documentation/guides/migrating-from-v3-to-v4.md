@@ -34,7 +34,7 @@ Polaris v4 contains mostly internal changes and has simple migration path. This 
 
 ## Testing
 
-We've migrated to react new context API as well as restructured our entire context structure. To keep up to date using our test provider.
+We’ve migrated to [React’s new context API](https://reactjs.org/docs/context.html) while restructuring Polaris’ entire context structure. Using the Polaris test provider will allow you to keep up to date Polaris' internal contexts.
 
 In v3, you could hook into Polaris’ context types.
 
