@@ -330,7 +330,7 @@ const userMenuMarkup = (
 
 ## Dependencies
 
-React/ReactDOM are peer dependencies of Polaris and have been bumped to 16.8.6 to enable the use of hooks. Use `yarn` or `npm` to install a recent version of react.
+React/ReactDOM are peer dependencies of Polaris and have been bumped to 16.8.6 to enable the use of hooks. Use `yarn` or `npm` to install a recent version of React.
 
 ```bash
 # yarn
