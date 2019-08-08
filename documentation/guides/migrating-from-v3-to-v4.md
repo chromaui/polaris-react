@@ -230,7 +230,12 @@ class Input extends React.PureComponent {
   }
 }
 
-const WrappedInput = compose(hocOne, hocTwo, hocX, withRef)(Input);
+const WrappedInput = compose(
+  hocOne,
+  hocTwo,
+  hocX,
+  withRef,
+)(Input);
 
 class App extends React.PureComponent {
   input = createRef();
@@ -239,9 +244,14 @@ class App extends React.PureComponent {
     input.current.focus();
   }
 
-  return (
-    <ReffableInput ref={reffableInput} onFocus={() => console.log('focused')} />
-  );
+  render() {
+    return (
+      <ReffableInput
+        ref={reffableInput}
+        onFocus={() => console.log('focused')}
+      />
+    );
+  }
 }
 
 // new with hooks
