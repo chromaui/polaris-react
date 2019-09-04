@@ -16544,6 +16544,35 @@ store2@^2.7.1:
   resolved "https://registry.yarnpkg.com/store2/-/store2-2.7.1.tgz#22070b7dc04748a792fc6912a58ab99d3a21d788"
   integrity sha512-zzzP5ZY6QWumnAFV6kBRbS44pUMcpZBNER5DWUe1HETlaKXqLcCQxbNu6IHaKr1pUsjuhUGBdOy8sWKmMkL6pQ==
 
+storybook-chroma@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/storybook-chroma/-/storybook-chroma-2.2.2.tgz#f61cf007ea883c490d300fc58da8dc0d82babcad"
+  integrity sha512-VDqqvenfmH3BpjszUFn3o66U4d9uRuBJ9uiFCMoRQgRB3yIUaQ/EIaJHS3l2pB8hRKOkj4MRtaFhi3730MeQZQ==
+  dependencies:
+    "@babel/runtime" "^7.3.1"
+    "@chromaui/localtunnel" "1.10.1"
+    async-retry "^1.1.4"
+    commander "^2.9.0"
+    debug "^3.0.1"
+    denodeify "^1.2.1"
+    env-ci "^2.1.0"
+    fake-tag "^1.0.0"
+    jsdom "^11.5.1"
+    jsonfile "^4.0.0"
+    minimatch "^3.0.4"
+    node-ask "^1.0.1"
+    node-fetch "^2.6.0"
+    node-loggly-bulk "^2.2.4"
+    param-case "^2.1.1"
+    pino "4.10.2"
+    progress "^2.0.3"
+    progress-stream "^2.0.0"
+    semver "^6.2.0"
+    strip-color "^0.1.0"
+    tmp "^0.1.0"
+    tree-kill "^1.1.0"
+    uuid "^3.3.2"
+
 storybook-chromatic@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/storybook-chromatic/-/storybook-chromatic-2.1.1.tgz#e6d8ad21eb956e4f65e37741c6ebf9637795f9fd"
