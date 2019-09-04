@@ -64,7 +64,8 @@
     "version": "yarn run readme-update-version",
     "storybook": "start-storybook -p 6006 --quiet",
     "storybook:build": "yarn run copy-polaris-tokens && build-storybook -o build/storybook/static",
-    "chromatic-test": "yarn run chromatic test --app-code=v3rsm6jazk -d ./build/storybook/static"
+    "chromatic-test": "yarn run chromatic test --app-code=v3rsm6jazk -d ./build/storybook/static",
+    "chroma-publish": "yarn run chroma publish --app-code=\"q9g8eysdl\" -d build/storybook/static"
   },
   "stylelint": {
     "extends": [
@@ -158,6 +159,7 @@
     "serve": "^11.0.0",
     "shelljs": "^0.8.3",
     "shx": "^0.3.2",
+    "storybook-chroma": "^2.2.2",
     "storybook-chromatic": "^2.1.1",
     "svgo": "^1.2.2",
     "typescript": "~3.5.1",

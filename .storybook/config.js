@@ -3,7 +3,8 @@ import {configure, addParameters, addDecorator} from '@storybook/react';
 import {setConsoleOptions} from '@storybook/addon-console';
 import {create} from '@storybook/theming';
 import tokens from '@shopify/polaris-tokens';
-import 'storybook-chromatic';
+//import 'storybook-chromatic';
+import 'storybook-chroma';
 
 import {
   addPlaygroundStory,
